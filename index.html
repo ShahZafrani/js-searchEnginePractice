@@ -16,13 +16,14 @@
     </head>
     <body>
       <h1>Search Engine Simulator</h1>
-      <h3>This is an exercise in using inverse indexing to create a function Information Retrieval system</h3>
+      <h3>This is an exercise in using inverse indexing to create a functional Information Retrieval system</h3>
+      <h3>Check out the repository on <a href="https://github.com/ShahZafrani/js-searchEnginePractice">Github</a></h3>
       <input id="query" value="fox" label="Enter Query Here" onkeydown="if (event.keyCode == 13) { beginQuery()}">
       <button id=submitQuery onclick="beginQuery()">Submit Query</button>
       <div id="searchResults">
       </div>
       <p>below is a textbox where you can enter a set of documents in json format.</p>
-      <textarea id="documents" rows="4" cols="50" autocomplete=off>
+      <textarea id="documents" rows="20" cols="50" autocomplete=off>
       </textarea>
     </body>
 

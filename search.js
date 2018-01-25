@@ -38,6 +38,7 @@ function beginQuery() {
 
 function displayResults(results) {
   var resultDiv = getElem("searchResults");
+  resultDiv.innerHTML = '';
   results.forEach(function(r){
     resultDiv.appendChild(document.createTextNode(r.toString()));
   })
